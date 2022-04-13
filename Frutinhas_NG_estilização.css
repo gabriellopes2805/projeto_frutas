@@ -1,0 +1,98 @@
+/* decoração do fundo em geral */
+body {
+  background-image: url(imagens/fundo_do_site1.jpg);
+}
+
+/* detalhamento de estilo na logo */
+#logo {
+  background-image: url(imagens/fundo\ da\ logo.jpg);
+  border-radius: 33px;
+  margin: auto;
+  width: 600px;
+  height: 90px;
+  border-style: solid;
+  border-color: rgb(146, 255, 213);
+  text-align: center;
+  font-size: 12.3px;
+  color: rgb(146, 255, 213);
+  text-shadow: 0 0 0.3em #000;
+  text-decoration: underline;
+  position: fixed;
+}
+
+/* posição e aparência dos links da logo direcionados para minhas redes sociais */
+#discord {
+  width: 53px;
+  position: relative;
+  top: -14px;
+  left: -10px;
+}
+#spotfy {
+  width: 32px;
+  position: relative;
+  top: -13px;
+  left: -14px;
+}
+#steam {
+  width: 28px;
+  position: relative;
+  top: -15px;
+  left: -6px;
+}
+
+/* detalhamento dos produtos em geral */
+#produtos_gerais {
+  background-color: rgb(146, 255, 213);
+  border-radius: 10px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 40px;
+}
+
+/* detalhes das imagens dos produtos */
+.a-produto:hover {
+  color: black;
+}
+.a-produto {
+  transition: all 1.5s;
+  display: inline-block;
+  width: 15%;
+  margin-left: 90px;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0);
+  font-size: 30px;
+}
+
+/* fundo das imagens */
+.produtoimg:hover {
+  background-color: rgba(201, 201, 201, 0.315);
+  border-radius: 300px;
+  border-color: rgba(201, 201, 201, 0.082);
+  border-style: solid;
+}
+.produtoimg {
+  background-color: rgba(255, 0, 0, 0);
+  transition: all 1s;
+  border-radius: 5px;
+  width: 100%;
+  margin-left: 15px;
+  margin-top: 40px;
+  margin-bottom: 60px;
+  border-style: solid;
+  border-radius: 5px;
+  border-color: rgba(0, 0, 0, 0);
+}
+.comprar {
+ text-align: right;
+}
+.carrinho_icone:hover{
+opacity: 1;
+}
+.carrinho_icone{
+    transition: all 1.5s;
+    opacity: 0;
+    position: relative;
+    right: 10px;
+    top: 4px;
+    width: 15%;
+}
